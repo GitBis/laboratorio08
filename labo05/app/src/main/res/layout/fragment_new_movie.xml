@@ -5,21 +5,20 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.labo05.ui.movie.viewmodel.MovieViewModel" />
+            type="com.example.labo05.ui.fragments.viewmodel.MovieViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/backgroundLayout"
-        tools:context=".ui.movie.newmovie.NewMovieFragment">
+        android:background="@color/white"
+        tools:context=".ui.fragments.newmovie.NewMovieFragment">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/newmovie"
             android:textColor="@color/white"
             android:textSize="@dimen/textSize"
             android:textStyle="bold"
@@ -35,15 +34,15 @@
             android:layout_width="@dimen/input_text"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/input_text_Margin"
-            android:background="@color/cardLayout"
-            android:hint="@string/name"
+            android:background=""
+            android:hint=""
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nombretext"
+                android:id="@+id/intext"
                 android:text="@={viewmodel.name}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,8 +58,8 @@
             android:layout_width="@dimen/input_text"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/input_text_Margin"
-            android:background="@color/cardLayout"
-            android:hint="@string/category"
+            android:background=""
+            android:hint=""
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +67,7 @@
             app:layout_constraintTop_toBottomOf="@+id/nombre">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/categoriatext"
+                android:id="@+id/intext2"
                 android:text="@={viewmodel.category}"
                 android:layout_width="@dimen/input_text"
                 android:layout_height="wrap_content"
@@ -84,8 +83,8 @@
             android:layout_width="@dimen/input_text"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/input_text_Margin"
-            android:background="@color/cardLayout"
-            android:hint="@string/description"
+            android:background="@color/"
+            android:hint=""
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +92,7 @@
             app:layout_constraintTop_toBottomOf="@+id/categoria">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/descripciontext"
+                android:id="@+id/inttext3"
                 android:text="@={viewmodel.description}"
                 android:layout_width="@dimen/input_text"
                 android:layout_height="wrap_content"
@@ -108,8 +107,8 @@
             android:layout_width="@dimen/input_text"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/input_text_Margin"
-            android:background="@color/cardLayout"
-            android:hint="@string/calification"
+            android:background=""
+            android:hint=""
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
@@ -117,7 +116,7 @@
             app:layout_constraintTop_toBottomOf="@+id/descripcion">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/calificationtext"
+                android:id="@+id/inttext4"
                 android:text="@={viewmodel.qualification}"
                 android:layout_width="@dimen/input_text"
                 android:layout_height="wrap_content"
@@ -134,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:backgroundTint="@color/buttonColor"
+            android:backgroundTint="@color/"
             android:text="Submit"
             android:textColor="@color/black"
             android:textColorHint="#E82B2B"

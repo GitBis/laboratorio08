@@ -1,11 +1,10 @@
-package com.example.labo05.ui.movie.billboard.recycleview
+package com.example.labo05.ui.fragments.billboard.recycleview
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.cardview.widget.CardView
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
@@ -13,9 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.labo05.R
 import com.example.labo05.data.model.MovieModel
 import com.example.labo05.databinding.FragmentBillboardBinding
-import com.example.labo05.databinding.FragmentNewMovieBinding
-import com.example.labo05.ui.movie.viewmodel.MovieViewModel
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.example.labo05.ui.fragments.viewmodel.MovieViewModel
 
 
 class BillboardFragment : Fragment() {

@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.labo05.ui.movie.viewmodel.MovieViewModel" />
+            type="com.example.labo05.ui.fragments.viewmodel.MovieViewModel" />
     </data>
     <FrameLayout
         android:layout_width="match_parent"

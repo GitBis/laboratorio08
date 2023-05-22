@@ -11,7 +11,7 @@
             android:layout_height="@dimen/cardView_height"
             android:layout_marginStart="@dimen/cardView_marginLeft"
             android:layout_marginEnd="@dimen/cardView_marginRight"
-            android:backgroundTint="@color/cardLayout"
+            android:backgroundTint="@color/black"
             android:clickable="true"
             app:cardCornerRadius="@dimen/cardView_radius"
             app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +26,7 @@
                     android:id="@+id/imageStarWars"
                     android:layout_width="@dimen/image_billboard_width"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/image_billboard_margin"
-                    app:srcCompat="@drawable/star_wars" />
+                    android:layout_margin="@dimen/image_billboard_margin" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -39,7 +38,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/text_billboard_margin"
-                        android:text="@string/starWars_tittle"
                         android:textColor="@color/white"
                         android:textSize="@dimen/text_billboard_size"
                         android:textStyle="bold" />
@@ -49,7 +47,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/text_billboard_margin"
-                        android:text="@string/starWars_calification"
                         android:textAlignment="center"
                         android:textColor="@color/calification"
                         android:textSize="@dimen/calification_billboard_size"

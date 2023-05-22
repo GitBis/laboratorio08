@@ -1,4 +1,4 @@
-package com.example.labo05.ui.movie.viewmodel
+package com.example.labo05.ui.fragments.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.example.labo05.ui.movie.billboard.recycleview
+package com.example.labo05.ui.fragments.billboard.recycleview
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.labo05.data.model.MovieModel

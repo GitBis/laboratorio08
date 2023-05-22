@@ -1,4 +1,4 @@
-package com.example.labo05.ui.movie.billboard.recycleview
+package com.example.labo05.ui.fragments.billboard.recycleview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
